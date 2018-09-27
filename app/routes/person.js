@@ -1,6 +1,7 @@
 import Route from '@ember/routing/route';
 
 export default Route.extend({
+
 	model() {
 		let person = this.store.createRecord('person', {
 			id: 1,
@@ -10,4 +11,5 @@ export default Route.extend({
 
 	return this.store.peekRecord('person', person.id);
 	}
+
 });
