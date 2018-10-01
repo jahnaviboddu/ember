@@ -7,6 +7,4 @@ export default Component.extend({
       this.toggleProperty('isWide');
     }
   }
-  
-    
 });

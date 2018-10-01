@@ -50,5 +50,11 @@
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
+  },
+  "dependencies": {
+    "curl": "^0.1.4",
+    "googleapis": "^34.0.0",
+    "heroku": "^7.16.0",
+    "scp": "0.0.3"
   }
 }

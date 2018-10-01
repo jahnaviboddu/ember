@@ -10,7 +10,6 @@ export function rentalPropertyType([propertyType]) {
   if (communityPropertyTypes.includes(propertyType)) {
     return 'Community';
   }
-
   return 'Standalone';
 }
 
